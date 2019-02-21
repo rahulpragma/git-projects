@@ -1,3 +1,8 @@
 <?php
-echo "Bob Updated";
-echo "Alice";
+$to = "rahul@example.com";
+$subject = "My subject";
+$txt = "Hello world!";
+$headers = "From: somebody@example.com";
+
+mail($to,$subject,$txt,$headers);
+?>
