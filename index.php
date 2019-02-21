@@ -10,7 +10,6 @@ if(mail($to,$subject,$txt,$headers))
 	echo "Email sent";
 }
 
-mail($to,$subject,$txt,$headers)
-echo "Message Sent"
+
 
 ?>
